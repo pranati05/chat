@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Popup form</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<link href="css/bootstrap-og.css" rel="stylesheet"/>
+
+<link href="css/main.css" rel="stylesheet"  type="text/css"/>
+<link href="css/fonts.css" rel="stylesheet"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myjs.js"></script>
+
+
+</head>
+
+
+<body>
+ <div id="div_popup">
+  <div class="drop-shadow fade">
+
+    <div id="box">
+<div class="header">
+   <div class="brand"> <img src="images/logo-best-brands.png" width="60%"/> 
+   </div>
+   <div class="close">
+   <img src="images/btn-close.png" width="50%"/> </div>
+   </div>
+        
+        
+   <div class="page2">
+   
+    
+   <h3>Which Mobile topic would you like help with?</h3>
+    <form id="contactForm" name="form" novalidate="novalidate">
+   <div class="button no-links">
+       <div class="form-group">
+       <p class="clearfix">
+ <label for="full name" class="control-label ErrorField"><span class="bold">Full Name:*</span></label><br />
+  
+    <input id="full-name" class="form-control input-box" name="fullname" type="text" placeholder="John Doe" class="required" />
+       </p>
+   </div>
+              <div class="form-group">
+
+         <p class="clearfix">
+ <label for="mobile number" class="control-label"><span class="bold">Mobile Phone Number:*</span></label><br />
+<input id="number" class="form-control input-box" name="mobilenumber" type="text" placeholder="123-123-1234" />
+        </p>
+       </div>
+     <div id="state" class="clearfix">
+        <span class="bold">State</span>
+          
+        <select name="select-state" class="form-control" >
+
+ <option selected>Please select</option>
+  <option value="Arizona">Arizona</option>
+  <option value="CA">California</option>
+  <option value="NY">New York</option>
+</select>
+            </div> 
+           
+      <div id="phone" class="clearfix">
+           
+            <span class="bold">Was your phone purchased in CA?</span><br/>
+           <select name="phone-state" class="form-control" >
+           <option selected>Please select</option>
+  			<option value="Arizona">Abc</option>
+  			<option value="CA">Xyz</option>
+			</select>
+           
+           </div>
+     
+          <p class="clearfix">
+          <label for="phone"><span class="bold">Describe your question...</span></label>  <br/>
+       <input id="description" class="form-control input-box" name="phone" type="text">   </p>
+     </div>  
+           <div style="padding-bottom: 25%">
+        <input type="submit" value="Start Chat" class="btn btn-default" id="submit"> </div>
+           
+   <div class="terms"><span style="color:#cc0000">*</span> Required Field</div>
+ 
+   </form>
+
+</div>
+      
+  <div class="footer">
+   <img src="images/logo-tc.png" id="footer_logo"/></div>
+
+
+</div>
+    </div>
+    </div>
+   
+
+
+    
+</body>
+</html>
