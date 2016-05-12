@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: 'century-gothic-Regular';
+	src:url(../fonts/century-gothic.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'century-gothic-Bold';
+	src:url(../fonts/century-gothic-bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
