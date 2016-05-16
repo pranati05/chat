@@ -1,5 +1,9 @@
 
 
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+
 #div_popup
 {
 	width:300px;
@@ -124,10 +128,10 @@ h3{
 }
 
 
-a
+a.button
 {
 	text-decoration:none;
-	
+	color:#666;
 }
 
 
@@ -282,7 +286,7 @@ display: block;
 }
 .form-control:focus {
     border-color: #ccc;
-    
+    outline:0 none;
 	box-shadow:none;
 	 background-color:#F0FDD2
 }
@@ -294,13 +298,45 @@ display: block;
 	padding-left: 35px;	
 	
 }
+.has-error .control-label
+{
+	color:#000;
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+	float:right;
+	font-size:10px;
+}
+.has-feedback .form-control-feedback {
+    right: 15px;
+}
+.has-success .form-control:focus
+{
+	border-color:#ccc;
+}
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label
+{
+	color:#000;
+}
 
-#full-name
+.has-success .form-control {
+    border-color: #ccc;
+    box-shadow: inset 0 0px 0px #ccc;
+}
+#phone
+{
+	display:none;
+}
+
+#fullname
 {
 	background-image: url('../images/icon-form-avatar.png');
    
 }
-#number
+#mobilenumber
 {
 	background-image: url('../images/icon-form-phone.png');
 
@@ -314,11 +350,6 @@ display: block;
    
 	padding-left:0;
 }
-.page3
-
-{
-    padding: 100px 10px
-}
 .terms
 {	
 
@@ -329,7 +360,7 @@ display: block;
     margin-top: -15%;
 }
 
-.footer
+#footer
 {	
     background-color:#D3D3D3;
 	width: 100%; 
