@@ -298,6 +298,14 @@ display: block;
 	padding-left: 35px;	
 	
 }
+.has-error .form-control-feedback
+{
+	color:#cc0000;
+}
+.has-error .help-block,  .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label
+{
+	color:#cc0000;
+}
 .has-error .control-label
 {
 	color:#000;
