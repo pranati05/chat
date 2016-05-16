@@ -7,34 +7,20 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>Chat Survey</title>
-<link rel="stylesheet" href="css/bootstrap-og.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="css/main.css" rel="stylesheet"  type="text/css"/>
-<link href="css/jquery.validate.css" rel="stylesheet"  type="text/css"/>
-<style type=”text/css”>
-#contactForm label.error {
-color:red;
-}
-#contactForm input.error {
-border:1px solid red;
-}
-</style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-   
-  <script src="js/bootstrap.min.js"></script>
-
-<script src="js/jquery.validate.js"></script>
-
-   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/additional-methods.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="js/myjs.js"></script>
-    
-
 </head>
 
 
 
 <body>
 <div id="div_popup">
-  <div class="fade">
+  <div class="drop-shadow fade">
 
     <div id="box">
 <div class="header">
@@ -43,7 +29,7 @@ border:1px solid red;
    <div class="close">
    <img src="images/btn-close.png" width="50%"/> </div>
    </div>
-        <div id="container">
+  <div id="container">
   <div id="content">
 
     <ul class="breadcrumb">
@@ -66,64 +52,9 @@ border:1px solid red;
 
   
 
-   <div class="page2">
-   
-    
-   <h3>Which Mobile topic would you like help with?</h3>
-    <form id="contactForm" name="form">
-   <div class="button no-links">
-       <div class="form-group">
-       <p class="clearfix">
- <label for="full name" class="control-label"><span class="bold">Full Name:*</span></label><br />
-  
-    <input id="full-name" class="form-control input-box" name="fullname" type="text" placeholder="John Doe" required />
-       </p>
-   </div>
-              <div class="form-group">
-
-         <p class="clearfix">
- <label for="mobile number" class="control-label"><span class="bold">Mobile Phone Number:*</span></label><br />
-<input id="number" class="form-control input-box" name="mobilenumber" type="text" placeholder="123-123-1234" maxlength="10" required />
-        </p>
-       </div>
-     <div id="state" class="clearfix">
-        <span class="bold">State</span>
-          
-        <select name="select-state" class="form-control" >
-
- <option selected>Please select</option>
-  <option value="Arizona">Arizona</option>
-  <option value="CA">California</option>
-  <option value="NY">New York</option>
-</select>
-            </div> 
-           
-      <div id="phone" class="clearfix">
-           
-            <span class="bold">Was your phone purchased in CA?</span><br/>
-           <select name="phone-state" class="form-control" >
-           <option selected>Please select</option>
-  			<option value="Arizona">Abc</option>
-  			<option value="CA">Xyz</option>
-			</select>
-           
-           </div>
-     
-          <p class="clearfix">
-          <label for="phone"><span class="bold">Describe your question...</span></label>  <br/>
-       <input id="description" class="form-control input-box" name="phone" type="text">   </p>
-     </div>  
-           <div style="padding-bottom: 25%">
-        <input type="submit" value="Start Chat" class="btn btn-default" id="submit"> </div>
-           
-   <div class="terms"><span style="color:#cc0000">*</span> Required Field</div>
  
-   </form>
-
 </div>
-     </div>
-            
-  <div class="footer">
+  <div id="footer">
    <img src="images/logo-tc.png" id="footer_logo"/></div>
 
 
